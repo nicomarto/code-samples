@@ -3,7 +3,9 @@
 Python Sample using NumPy, Matplotlib and seaborn
 Nicolás Martorell Nielsen
 """
-
+import os
+repo_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), '../..')
+python_dir = repo_dir + "/Python"
 import numpy as np
 import matplotlib.pyplot as plt
 from seaborn import distplot 
