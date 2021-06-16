@@ -1,8 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[11]:
-
+# -*- coding: utf-8 -*-
+"""
+Python Sample using NumPy, Matplotlib and seaborn
+Nicolás Martorell Nielsen
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -29,10 +29,6 @@ plt.scatter(X[:,0],X[:,1])
 plt.title('Plot of X1 on X2')
 plt.show()
 
-
-# In[16]:
-
-
 N = 100
 S = 1000
 beta_res = np.zeros(shape = (S,2))
@@ -47,8 +43,6 @@ print('Mean of beta_2 is:', np.mean(beta_res[:,1]))
 distplot(beta_res[:,0])
 distplot(beta_res[:,1])
 
-
-# In[ ]:
 
 
 
