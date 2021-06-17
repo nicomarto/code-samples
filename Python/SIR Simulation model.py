@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Python Sample using NumPy and Matplotlib
+Nicolás Martorell Nielsen
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 S, I, R, alpha, T, days, C = [999], [1], [0], 0.00018, 14, 200, []
@@ -14,8 +20,8 @@ plt.xlabel('Days')
 plt.ylabel('Population')
 plt.title('Pandemic Evolution (base case scenario)')
 plt.legend()
+plt.savefig('Python/pandemic1.png')
 plt.show()
-plt.savefig('pandemic1')
 
 Ib=I
 maxIb = np.max(I)
@@ -46,8 +52,8 @@ plt.xlabel('Days')
 plt.ylabel('Population')
 plt.title('Pandemic Evolution with a Vaccionation daily rate of 0.5% of the population')
 plt.legend()
+plt.savefig('Python/pandemic2')
 plt.show()
-plt.savefig('pandemic2')
 
 plt.plot(Ib, label='Infected base case scenario')
 plt.plot(Iv, label='Infected')
@@ -55,8 +61,8 @@ plt.xlabel('Days')
 plt.ylabel('Population')
 plt.title('Infected Population: base case scenario vs vaccine scenario')
 plt.legend()
+plt.savefig('Python/pandemic3')
 plt.show()
-plt.savefig('pandemic3')
 
 print('Vaccine Effect in Maximum Cases per day:',(round((maxCv/maxCb-1)*-100,2)),'% decrease in max total cases per day')
 print('Vaccine Effect in Maximum Infected per day:',round((maxIv/maxIb-1)*-100,2),'% decrease in max total infected per day')
