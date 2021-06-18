@@ -8,6 +8,6 @@ On "SIR simulation model" file, you can kindly find a simple simulation model of
 
 On "Model Selection Criteria", you may kindly have a taste of my skills using Pandas and Econtools.metrics, in a little play with the different Criteria used for Model Selection. Unfortunately, the Database is subject to copyright it is no possible to upload it to this repository.
 
-**R Sample**
+**R Sample**: Here, you may kindly find simple financial returns models by using quantmod and fBasics.
 
 **STATA**
