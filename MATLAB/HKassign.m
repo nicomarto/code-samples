@@ -1,3 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MATLAB Sample for General Equilibrium Computing %
+% Called functions are self-made                  %
+% And available in MATLAB folder                  %
+% Nicolás Martorell Nielsen                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 clear all
 
 %HK Assigment
