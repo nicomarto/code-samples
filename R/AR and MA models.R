@@ -1,8 +1,8 @@
-############################################
-# R Sample using quantmod and fUnitRoots   #
-# Financial Time-Series Modeling           #
-# Nicolás Martorell Nielsen                #
-############################################
+#################################################################
+# R Sample using quantmod, fBasics, kableExtra and fUnitRoots   #
+# Financial Time-Series Modeling                                #
+# Nicolás Martorell Nielsen                                     #
+#################################################################
 
 require(quantmod)
 library(fUnitRoots)
