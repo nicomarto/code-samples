@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -70,10 +67,3 @@ bg_clf.score(valid,y_valid) #score in validation dataset
 
 pred_valid = bg_clf.predict(valid)
 bg_clf.oob_score_ #out-of-bag score for overfitting
-
-
-# In[ ]:
-
-
-
-
