@@ -10,6 +10,8 @@ On "Model Selection Criteria", you may kindly have a taste of my skills using Pa
 
 On "Decision Tree and Bagging Classifier application in Finance", you could inspect a basic application of Decission Trees and Bagging Classifiers for financial applications
 
+"Optimal features and max return" follows from the code "Decision Tree and Bagging Classifier application in Finance". This code looks to maximize the return of te investment strategy by looking for the optimal features of the stocks the predicts the stock return better.
+
 **R Sample**: Here, you may kindly find simple financial returns models by using quantmod, fBasics, kableExtra and fUnitRoots.
 
 **MATLAB Sample**: Here, you will kindly have a glimpse of my skills in MATLAB. The Folder contains a main M file, which computes the General Equilibrium in a Economy that allocates job occupations, years of education and salaries to the population. This model was constructed to simulate how the share of workers in each job occupations is sustained by their years of eduaction necessary for the job occupation and their salary in each occupaiton in equilibrium. Also, you may kindly find all the functions that are called in the main M file to compute production of years of education, the economy's production, fixed point, among other things.
